@@ -30,7 +30,7 @@ twitter_username: mauerswald
 github_username: flipswitchingmonkey
 
 # Build settings
-theme: hitchens-theme
+remote_theme: flipswitchingmonkey/hitchens-theme
 plugins:
   - jekyll-feed
 # Exclude from processing.
