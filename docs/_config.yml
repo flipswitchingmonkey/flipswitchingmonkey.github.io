@@ -19,6 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Fabrikat
+googlewebfonts: Fira+Code:wght@400;500;700
 email: contact@fabrikat.dev
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -29,10 +30,30 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: mauerswald
 github_username: flipswitchingmonkey
 
+twitter:
+  username: #yourusername
+  card: summary
+  creator: #yourusername
+author:
+  twitter: #yourusername
+  name: #yourusername
+  avatar:
+  email: #youremail
+  url: #yoururl
+permalink: pretty
+
 # Build settings
-remote_theme: flipswitchingmonkey/hitchens-theme
+remote_theme: flipswitchingmonkey/asko-theme
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+highlighter: rouge
+
+exclude:
+  - .jekyll-cache
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
